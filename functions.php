@@ -13,10 +13,10 @@ function rest_disabled_scripts_header() {
 	remove_action( 'admin_print_styles', 'print_emoji_styles' );
 }
 
-function register_menu_rest() {
+function rest_register_menu() {
 	register_nav_menu( 'header_menu', __( 'Header Menu' ) );
 }
 
 add_theme_support( 'menus' );
 add_action( 'init', 'rest_disabled_scripts_header' );
-add_action( 'init', 'register_menu_rest' );
+add_action( 'init', 'rest_register_menu' );

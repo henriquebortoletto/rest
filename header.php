@@ -4,12 +4,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, skrink-to-fit=no">
-	<title>
-		<?php if ( is_front_page() ): ?>
-			<?php bloginfo( 'name' ); ?> - Página Principal - <?php the_field( 'titulo_seo' ); ?>
-		<?php else: ?>
-			<?php bloginfo( 'name' ); wp_title( '-' ); ?> - <?php the_field( 'titulo_seo' ); ?>
-		<?php endif; ?>
+	<title><?php bloginfo( 'name' ); wp_title( '-' ); ?> &#8211; <?php the_field( 'titulo_seo' ); ?>
 	</title>
 	<link rel="shortcut icon" href="<?= get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon">
 	<meta name="description" content="<?php the_field( 'descricao_seo' ); ?>">
