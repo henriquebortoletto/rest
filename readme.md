@@ -52,5 +52,3 @@ Configurações > Leitura
 ```
 
 8. Selecionar o item `Uma página estática (selecionar abaixo)` e em `Página Inicial` escolher a opção `Menu da Semana`, e o tema rest já estará ativo
-
-Feito por :purple_heart: by [Henrique Bortoletto](https://github.com.br) :wave:
